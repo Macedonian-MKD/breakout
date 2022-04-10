@@ -1,0 +1,45 @@
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid 1px black;
+    left:50%;
+    transform:translateX(-50%);
+    margin-top: 100px;
+    
+  }
+
+  .score{
+      position: absolute;
+      left:50%;
+      transform:translateX(-50%);
+      margin-top: 20px;
+      font-size: 2rem;
+  }
+  .user {
+    position: absolute;
+    width: 18%;
+    height: 20px;
+    background-color: blueviolet;
+  }
+  
+  .block {
+    position: absolute;
+    width: 18%;
+    height: 20px;
+    background-color: blue;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+  }
+
+  @media only screen and (max-width:570px){
+      /* .grid{
+          width: 400px;
+      } */
+  }
